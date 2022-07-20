@@ -1,0 +1,131 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* header content */
+.header-content{
+  text-align: center;
+width:60%;
+max-width: 90%;
+margin:auto;
+color:gray;
+padding-top:40px;
+}
+.header-content>h1{
+  font-size: 2.3rem;
+  color: #3D4853;
+}
+.header-content>h1>span{
+color:#0da5f0;
+}
+.about-text{
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  font-size:1.1rem;
+  width:65%;
+  margin: auto;
+}
+.star-rating>img{
+  display: block;
+}
+.star-rating{
+  display: flex;
+  justify-content: center;
+  margin:10px auto;
+}
+
+.star-rating + button{
+  border: 0;
+  color:white;
+  background-color: #0288d1;
+  font-size:1rem;
+  text-transform: uppercase;
+  width:330px;
+  padding:20px 10px;
+  border-radius: 5px;
+}
+.people-signedUp{
+  /* align-self: center; */
+  display: flex;
+  align-items: center;
+  width:40%;
+  margin:auto;
+  margin-top:5px;
+}
+.people-signedUp>img{
+width:20px;
+margin-left:12px;
+
+}
+/* header bottom contentt till here */
+
+
+/* customers logo */
+#logo-img{
+
+  width:70%;
+  height:60px;
+  margin: auto;
+  margin-top:20px;
+}
+#logo-img>img{
+  width:100%;
+  
+}
+
+/* video screenshots */
+#video-screenshots{
+width:80%;
+margin:auto;
+margin-top:-4em;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 0px 2.6px;
+}
+#video-screenshots>img{
+width:100%;
+}
+
+
+/* time management first row */
+.time-mangement-col{
+width:80%;
+display:flex;
+justify-content: space-between;
+color:gray;
+margin:8% auto;
+
+}
+
+.leftdiv-list>h4{
+  /* text-align:center; */
+  margin-left:4em;
+  color:#8b8b8b;
+  text-transform: uppercase;
+}
+.leftdiv-list li{
+  display:block;
+  margin:-10px 8px; 
+  padding:-5px;
+  width:100%;
+}
+.leftdiv-list>ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.p-heading{
+  color:#3c4855;
+  font-weight:bold;
+}
+
+.rightdiv-img{
+width:50%;
+}
+.rightdiv-img>img{
+  width:100%;
+}
+
+.p-heading:hover{
+  color:#0da5f0;
+}
+.leftdiv-list>h4:hover{
+  color:black;
+}
