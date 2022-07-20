@@ -1,0 +1,31 @@
+#header{
+  display: flex;
+  justify-content: space-between;
+  font-size:1rem;
+  text-transform: uppercase;
+}
+img{
+  width:20vh;
+}
+li{
+  color:gray;
+  display:block;
+  margin:15px 20px 0px 20px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.right-row{
+  display:flex;
+  align-items: center;
+  margin-right: 4%;
+}
+.right-row>li:nth-child(2){
+  border:1.8px solid #09a7f0;
+  padding: 10px 20px;
+  color:#09a7f0;
+}
+
