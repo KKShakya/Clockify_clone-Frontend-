@@ -1,26 +1,30 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+section{
+  margin-top:70px;
+}
 /* header content */
 .header-content{
   text-align: center;
 width:60%;
 max-width: 90%;
 margin:auto;
-color:gray;
+color:#5A6B7B;
 padding-top:40px;
 }
 .header-content>h1{
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #3D4853;
+  font-weight: 300;
 }
 .header-content>h1>span{
 color:#0da5f0;
 }
 .about-text{
   overflow-wrap: break-word;
-  line-height: 1.5;
-  font-size:1.1rem;
+  line-height: 1.6;
+  font-size:1.3rem;
   width:65%;
   margin: auto;
 }
@@ -33,10 +37,10 @@ color:#0da5f0;
   margin:10px auto;
 }
 
-.star-rating + button{
+.star-rating + button,.time-mangement-col+button{
   border: 0;
   color:white;
-  background-color: #0288d1;
+  background-color: #03A9F4;
   font-size:1rem;
   text-transform: uppercase;
   width:330px;
@@ -74,7 +78,7 @@ margin-left:12px;
 
 /* video screenshots */
 #video-screenshots{
-width:80%;
+width:85%;
 margin:auto;
 margin-top:-4em;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 0px 2.6px;
@@ -129,3 +133,14 @@ width:50%;
 .leftdiv-list>h4:hover{
   color:black;
 }
+
+.time-mangement-col+button{
+  display: block;
+  margin:auto;
+}
+button:hover{
+  background-color: #0288d1;
+}
+
+/* Time management CSS ends here */
+

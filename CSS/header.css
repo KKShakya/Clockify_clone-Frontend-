@@ -27,5 +27,13 @@ ul{
   border:1.8px solid #09a7f0;
   padding: 10px 20px;
   color:#09a7f0;
+  border-radius: 4px;
 }
+.right-row>li:nth-child(2):hover{
+  background:#09a7f0;
+  color:#fff;
 
+}
+.left-row li:hover,.right-row li:hover{
+  color:#09a7f0;
+  }
