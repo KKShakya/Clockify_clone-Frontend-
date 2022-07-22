@@ -1,0 +1,63 @@
+footer{
+  padding:3em;
+}
+.footer-top-links{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-top-links>ul:first-child{
+ width:20%;
+}
+.footer-top-links>ul:first-child img+li{
+  font-size:0.8rem;
+  /* margin-bottom: -20px; */
+}
+.footer-top-links>ul:first-child span{
+  text-transform: none;
+  /* margin-bottom: -20px; */
+}
+
+footer li{
+  display: block;
+  /* padding: 8px; */
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color:#5a6b7b
+
+}
+.footer-top-links>ul>span{
+  /* padding: 8px; */
+  /* color: #5a6b7b; */
+  line-height: 2;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.footer-social-links,.footer-address,.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-social-links>ul{
+display: flex;
+}
+.footer-social-links>ul>li{
+  padding:10px;
+}
+.footer-bottom,.footer-address{
+  padding:5px 1em 5px 3em;
+  color:#5a6b7b;
+}
+
+.links-icon>li>img{
+  /* background: url(https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-twitter-1.png); */
+width: 20px;
+height: 20px;
+}
+.footer-bottom{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+ margin-left:8px;
+}
