@@ -16,7 +16,7 @@ padding-top:40px;
 .header-content>h1{
   font-size: 2rem;
   color: #3D4853;
-  font-weight: 300;
+  font-weight: normal;
 }
 .header-content>h1>span{
 color:#0da5f0;
@@ -58,7 +58,6 @@ color:#0da5f0;
 .people-signedUp>img{
 width:20px;
 margin-left:12px;
-
 }
 /* header bottom contentt till here */
 

@@ -1,0 +1,42 @@
+.go-to-signup{
+  text-align: center;
+  margin-top: 10em;
+  background-color: #F7FCFF;
+  padding:3em;
+}
+.go-to-signup>h2{
+  font-size: 2rem;
+  color: #3D4853;
+  font-weight: normal;
+}
+.go-to-signup>button{
+  border: 0;
+  color:white;
+  background-color: #0288D1;
+  font-size:1rem;
+  text-transform: uppercase;
+  width:330px;
+  padding:20px 10px;
+  border-radius: 5px;
+  margin-top:2.5em;
+}
+.people-signedUp{
+  /* align-self: center; */
+  display: flex;
+  align-items: center;
+  width:25%;
+  margin:auto;
+  margin-top:5px;
+  color:#03A9F4;
+}
+.people-signedUp>img{
+width:20px;
+margin-left:12px;
+}
+.go-to-signup>ul{
+  width:40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  color:gray;
+}

@@ -37,3 +37,7 @@ ul{
 .left-row li:hover,.right-row li:hover{
   color:#09a7f0;
   }
+
+  .left-row>ul a{
+    text-decoration: 0;
+  }
