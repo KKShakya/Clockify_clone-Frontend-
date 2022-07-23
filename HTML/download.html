@@ -11,23 +11,7 @@
   </head>
   <body>
     <div id="header">
-      <div class="left-row">
-        <ul>
-          <li>
-            <a href="index.html"
-              ><img
-                src="https://clockify.me/assets/images/brand-assets/clockify-logo.png"
-                alt=""
-            /></a>
-          </li>
-          <li>Features</li>
-          <a href="/HTML/download.html"> <li>Download</li></a>
-        </ul>
-      </div>
-      <div class="right-row">
-        <li>Log In</li>
-        <li>Sign Up Free</li>
-      </div>
+    <!-- header.html -->
     </div>
 
     <section id="dwnld-header">
@@ -133,24 +117,23 @@
 
 
 <section class="go-to-signup">
-  <h2>Start tracking time with Clockify</h2>
-  <ul>
-    <li>24/7 support</li>
-    <li>•</li>
-    <li>Cancel anytime</li>
-    <li>•</li>
-    <li>Free forever</li>
-  </ul>
-  <button>Start tracking time — It's Free!</button>
-  <div class="people-signedUp">
-    <img
-      src="https://w7.pngwing.com/pngs/843/875/png-transparent-computer-icons-business-supply-chain-management-service-business-blue-service-people-thumbnail.png"
-      alt="people"
-    />
-    <span>126,664 people signed up last month</span>
-  </div>
+ <!-- data from createAccount -->
 </section>
-
+<footer>
+  
+</footer>
 
   </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+$(function(){
+  $("#header").load("header.html");  
+});
+$(function(){
+  $(".go-to-signup").load("createAccount.html");  
+});
+$(function(){
+  $("footer").load("footer.html");
+});
+  </script>
 </html>

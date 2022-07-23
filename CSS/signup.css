@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";;
+}
+body {
+  background-color: #f7fcff;
+  overflow: auto;
+  line-height: 1.5;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.signup-header>a{
+  color:#03a9f4;
+  text-decoration: none;
+}
+.form-top {
+  margin-top: 3em;
+  text-align: center;
+}
+.form-top > h1 {
+  font-size: 2.1rem;
+  font-weight: normal;
+  line-height: 2;
+}
+.form-top > p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.5;
+  padding: 5px;
+}
+.form-top > p:nth-child(3) {
+  font-size: 0.9rem;
+}
+
+/* form css */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  margin-top: 2em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+  background-color: #fff;
+}
+input {
+  padding: 8px;
+  margin: 15px 10px;
+  border-radius: 3px;
+  border:1px solid gray;
+}
+input[type="checkbox"]
+{
+  display: inline;
+ 
+}
+
+input[type="submit"]{
+  background-color: #5cc7f8;
+  font-size: 1.1rem;
+  color:#fff;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+form + p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+form+p>span:nth-child(3){
+color:#03a9f4;
+}
+form>p{
+  font-size: 1.2rem;
+  font-weight:500;
+}
+
+.checkbox>span:last-child{
+color:#03a9f4;
+}

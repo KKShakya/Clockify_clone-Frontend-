@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+
+    <link rel="stylesheet" href="/CSS/login.css" />
+  </head>
+  <body>
+    <section id="login-two-divs" class="flex">
+      <div class="login-section">
+        <div class="login-header">
+          <a href="/HTML/index.html">
+            <img
+              src="https://clockify.me/assets/images/clockify-logo.svg"
+              alt=""
+          /></a>
+          <span
+            >Don't have an account?
+            <a href="/HTML/signup.html"> Sign Up</a></span
+          >
+        </div>
+
+        <form action="">
+          <p>Log In</p>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            type="text"
+            id="password"
+            placeholder="Enter password"
+            required
+          />
+          <div class="checkbox">
+            <input type="checkbox" value="Stay signed up" placeholder="I" />
+            <span>Stay Logged In </span>
+          </div>
+          <input type="submit" value="Log in" />
+        </form>
+        <p>
+          <img src="https://app.clockify.me/assets/ui-icons/safe.png" alt="" />
+          <span>Your data is safe with us: </span>
+          <span>Security Privacy</span>
+        </p>
+      </div>
+
+      <!-- right panel of login page -->
+      <div class="right-side-panel">
+        <span>New</span>
+        <h2>Scheduling</h2>
+        <p>
+          Visualize projects on a timeline and plan team's capacity (see who's
+          busy and who's available).
+        </p>
+        <img
+          src="https://app.clockify.me/assets/images/scheduling-promo.svg"
+          alt=""
+        />
+      </div>
+    </section>
+  </body>
+  <script src="/javascript/login.js"></script>
+</html>
