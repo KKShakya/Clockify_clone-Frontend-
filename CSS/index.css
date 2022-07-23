@@ -1,9 +1,14 @@
+
 body{
   font-family: 'Roboto', sans-serif;
 }
 section{
   margin-top:70px;
 }
+a{
+  text-decoration: none;
+}
+
 /* header content */
 .header-content{
   text-align: center;
@@ -143,3 +148,103 @@ button:hover{
 
 /* Time management CSS ends here */
 
+/* chat bot css */
+#chat-bot-sign{
+position: fixed;
+bottom: 20px;
+right: 20px;
+vertical-align: middle;
+}
+
+
+#chat-bot-sign img{
+  width:20px;
+height:20px;
+
+}
+#chat-bot-sign>button{
+  background:#424fb5;
+  border: 0;
+  padding:10px 20px;
+  font-size: 1.3rem;
+  border-radius:999rem;
+}
+#chat-bot-sign>button>span:last-child{
+  color:#fff
+}
+#chat-bot-sign>button:hover,.chat-header-cont>button:hover{
+  background:#3a73b2;
+  box-shadow: 0 14px 28px rgba(2, 2, 3, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: scale(0.9);
+}
+
+.chat-box-window{
+ width:20%;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ display: none;
+ background-color:#fff;
+}
+.chat-header{
+  height: 40px;
+  margin-top:-10px;
+  background-color: #3a73b2;
+  border-radius: 10px 10px 0 0;
+}
+.chat-header-cont>h1{
+  text-align: center;
+font-size:1.1rem;
+  font-weight: normal;
+  padding-top:10px;
+  color:#fff;
+}
+.chat-header-cont>button{
+  float:right;
+  position:relative;
+  top:-40;
+  right:10;
+  background-color: #3a73b2;
+  border: 0;
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+.chat-box-window>form{
+  
+  margin-top: 0PX;
+  display: flex;
+  flex-direction: column;
+  padding:8px;
+  line-height: 1.2;
+  overflow-y:hidden;
+}
+
+.chat-box-window>form>p{
+  font-size: 0.9rem;
+  color:#5A6B7B;
+}
+.chat-box-window>form>label{
+margin-top:10px;
+font-weight: 500;
+}
+.sbmt-msg{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sbmt-msg>button{
+background-color: #3a73b2;
+border:0;
+padding: 10px 20px;
+font-size: 1rem;
+border-radius: 8px;
+color:#fff;
+/* margin-right: 25px; */
+}
+.sbmt-msg>button:hover{
+  transform: scale(0.9);
+}

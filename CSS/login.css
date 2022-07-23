@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";;
+}
+
+body {
+  background-color: #f7fcff;
+  overflow: auto;
+  line-height: 1.5;
+}
+#login-two-divs{
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+}
+
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.login-header>a{
+  color:#03a9f4;
+  text-decoration: none;
+}
+
+
+/* form css */
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px;
+  background-color: #fff;
+}
+input {
+  padding: 8px;
+  margin: 15px 10px;
+  border-radius: 3px;
+  border:1px solid gray;
+}
+
+
+input[type="submit"]{
+  background-color: #5cc7f8;
+  font-size: 1.1rem;
+  color:#fff;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+form + p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+form+p>span:nth-child(3){
+color:#03a9f4;
+}
+form>p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.login-header{
+  width:90%;
+}
+.login-header>span>a{
+  text-decoration: 0;
+  color:#03a9f4;
+}
+form{
+  width:30%;
+  margin-top:5em;
+}
+
+.right-side-panel{
+  background-color: #424fb5;
+  box-sizing: border-box;
+  padding:20px;
+  text-align: center;
+  line-height: 2;
+  color:#fff
+}
+.right-side-panel>img{
+  width:140%;
+  margin:auto;
+}
+.right-side-panel>span{
+  color:black;
+  padding:2px 8px;
+  background-color: #e4eaee;
+  font-size: 12px;
+  border-radius: 2px;
+
+}
+.right-side-panel>h2{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.right-side-panel>p{
+font-size: 1.2rem;
+line-height: 1.3;
+width:75%;
+margin: auto;
+margin-bottom:2em;
+}
